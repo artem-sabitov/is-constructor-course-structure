@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+    <theme>
+        <text_color>#ffffff</text_color>
+        <info_color>#317ad4</info_color>
+        <success_color>#77b545</success_color>
+        <error_color>#d92a0b</error_color>
+        <warn_color>#e0dd00</warn_color>
+    </theme>
+    <assets>
+        <asset id="background_01">
+            <link>https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg</link>
+        </asset>
+        <asset id="image_01">
+            <link>https://static.ssl.mts.ru/mts_media/images/materials/Fishing_921.jpg</link>
+        </asset>
+        <asset id="image_02">
+            <link>https://253931.selcdn.ru/is-project/1.png</link>
+        </asset>
+    </assets>
+    <structure>
+        <frame type="intro">
+            <background>background_01</background>
+            <title>Тренажер по информационной безопасности. Фишинг</title>
+            <body>
+                <image>image_01</image>
+            </body>
+        </frame>
+        <frame type="page">
+            <background>background_01</background>
+            <title>Инструкция по работе с тренажером</title>
+            <body>
+                <text align="center">Во время прохождения курса вы встретите слайды:</text>
+                <list align="left">
+                    <element>Теоретическая информация</element>
+                    <element>Возможность пройти короткий тест с выбором правильного вопроса</element>
+                    <element>Короткая тренировка полученных навыков</element>
+                </list>
+            </body>
+        </frame>
+        <frame type="page">
+            <background>background_01</background>
+            <title>Что такое фишинг?</title>
+            <body>
+                <text>Фишинг — вид интернет-мошенничества, целью которого является получение доступа к конфиденциальным данным пользователей.</text>
+            </body>
+        </frame>
+        <frame type="page">
+            <background>background_01</background>
+            <title>Техники фишинга</title>
+            <body>
+                <text>Ниже указаны самые популярные методы фишинга</text>
+                <list>
+                    <element>Социальная инженерия</element>
+                    <element>Вредоносные веб-ссылки</element>
+                    <element>Поддельные веб-сайты</element>
+                    <element>SMS-фишинг</element>
+                </list>
+            </body>
+        </frame>
+        <frame type="page">
+            <background>background_01</background>
+            <title>Методы борьбы с фишингом</title>
+            <body>
+                <list>
+                    <element>Социальная инженерия</element>
+                    <element>Вредоносные веб-ссылки</element>
+                    <element>Поддельные веб-сайты</element>
+                    <element>SMS-фишинг</element>
+                </list>
+                <text>Выше, основные приемы борьбы с фишингом</text>
+            </body>
+        </frame>
+        <frame type="test">
+            <background>background_01</background>
+            <title>Пройдите простой тест</title>
+            <body>
+                <test>
+                    <question order="1">
+                        <text>Что из этого является фишингом?</text>
+                        <answers>
+                            <answer order="1" correct="true">
+                                <text>Социальная инженерия</text>
+                            </answer>
+                            <answer order="2" correct="false">
+                                <text>Торговля криптовалютой</text>
+                            </answer>
+                            <answer order="3" correct="false">
+                                <text>Отказ предоставлять персональные данные</text>
+                            </answer>
+                            <answer order="4" correct="false">
+                                <text>Ловля окуня на блесну</text>
+                            </answer>
+                        </answers>
+                    </question>
+                    <question order="1">
+                        <text>Вы получили СМС от Банка с просьбой прислать номер Вашей банковской карты в ответом СМС. Безопасно ли отправлять данные своей карты?</text>
+                        <answers>
+                            <answer order="1" correct="false">
+                                <text>Да</text>
+                            </answer>
+                            <answer order="2" correct="true">
+                                <text>Нет</text>
+                            </answer>
+                        </answers>
+                    </question>
+                </test>
+            </body>
+        </frame>
+        <frame type="exercise">
+            <background>background_01</background>
+            <title>Пройдите упражнение</title>
+            <body>
+                <exercise>
+                    <image>image_02</image>
+                    <marks>
+                        <mark type="success">
+                            <text>Правильно! Это письмо можно отправить в спам!</text>
+                            <offset x="502" y="208"/>
+                            <size width="40" height="40"/>
+                        </mark>
+                        <mark type="success">
+                            <text>Правильно! Это письмо можно удалить!</text>
+                            <offset x="542" y="208"/>
+                            <size width="40" height="40"/>
+                        </mark>
+                        <mark type="warn">
+                            <text>Обратите внимание на адресс!</text>
+                            <offset x="620" y="260"/>
+                            <size width="160" height="50"/>
+                        </mark>
+                        <mark type="error">
+                            <text>Вы ошиблись! Нельзя переходить по этой ссылке!</text>
+                            <offset x="620" y="260"/>
+                            <size width="160" height="50"/>
+                        </mark>
+                    </marks>
+                </exercise>
+            </body>
+        </frame>
+    </structure>
+</course>
